@@ -81,7 +81,6 @@ export class StorageLayout {
         );
       }
     }
-    const prettifier = new Prettify(data.contracts);
-    prettifier.tabulate();
+    return data;
   }
 }
